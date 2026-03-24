@@ -303,3 +303,81 @@ button:hover{
     text-decoration-line: none;
     color: #3f0063;
 }
+
+@media screen and (max-width: 767px) {
+    
+
+    header {
+        height: auto;
+        min-height: 400px;
+        margin: 10px;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    header .name, .welcome {
+        position: static; 
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    header .name {
+        font-size: 35px; 
+        left: 0; 
+        top: 0;
+    }
+
+    .welcome {
+        font-size: 28px;
+        left: 0;
+        top: 0;
+    }
+
+
+    .contents {
+        position: static; 
+        margin-top: 30px;
+        padding: 20px;
+        width: 80%;
+    }
+
+    .skills {
+        padding: 20px 10px;
+    }
+
+    .article5, .article6 {
+        display: block;
+        margin: 20px auto;
+        width: 90%;
+        max-width: none;
+        border-radius: 30px;
+    }
+
+    .project {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .description, .project1 {
+        width: 100%;
+    }
+
+    .project h3 {
+        position: static;
+        text-align: center;
+    }
+
+        width: 100%;
+        padding-right: 10px; 
+        box-sizing: border-box; 
+    }
+
+    form .bt {
+        position: static;
+        margin-top: 20px;
+    }
+}
